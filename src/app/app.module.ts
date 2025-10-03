@@ -9,21 +9,21 @@ import { LandingComponent } from './components/landing/landing.component';
 import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { MyUniverseComponent } from './components/my-universe/my-universe.component';
+import { EmailVerificationComponent } from './components/email-verification/email-verification.component';
 import { AuthService } from './services/auth.service';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    LandingComponent,
-    LoginComponent,
-    SignupComponent,
-    MyUniverseComponent
-  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    AppComponent,
+    LandingComponent,
+    LoginComponent,
+    SignupComponent,
+    MyUniverseComponent,
+    EmailVerificationComponent
   ],
   providers: [AuthService],
   bootstrap: [AppComponent]

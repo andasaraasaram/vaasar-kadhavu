@@ -1,10 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { CommonModule } from '@angular/common';
 import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-my-universe',
-  standalone: false,
+  standalone: true,
+  imports: [CommonModule],
   template: `
     <div>
       <h1>My Universe</h1>

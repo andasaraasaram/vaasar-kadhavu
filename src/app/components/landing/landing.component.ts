@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-landing',
-  standalone: false,
+  standalone: true,
   template: `
     <div>
       <h1>Welcome to My Universe</h1>
