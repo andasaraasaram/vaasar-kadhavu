@@ -6,7 +6,7 @@ import { firstValueFrom } from 'rxjs';
   providedIn: 'root'
 })
 export class AuthService {
-  private apiUrl = 'https://pin-vaasal.onrender.com/api'; // Replace with your Render URL
+  private apiUrl = 'https://pin-vaasal.onrender.com/api';
   private currentUser: any = null;
 
   constructor(private http: HttpClient) {

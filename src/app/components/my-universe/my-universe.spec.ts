@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MyUniverse } from './my-universe';
+import { MyUniverseComponent } from './my-universe';
 
-describe('MyUniverse', () => {
-  let component: MyUniverse;
-  let fixture: ComponentFixture<MyUniverse>;
+describe('MyUniverseComponent', () => {
+  let component: MyUniverseComponent;
+  let fixture: ComponentFixture<MyUniverseComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MyUniverse]
+      imports: [MyUniverseComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(MyUniverse);
+    fixture = TestBed.createComponent(MyUniverseComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
