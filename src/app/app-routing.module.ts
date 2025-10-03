@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LandingComponent } from './components/landing/landing.component';
-import { LoginComponent } from './components/login/login.component';
-import { SignupComponent } from './components/signup/signup.component';
-import { MyUniverseComponent } from './components/my-universe/my-universe.component';
-import { EmailVerificationComponent } from './components/email-verification/email-verification.component';
+import { LandingComponent } from './components/landing/landing';
+import { LoginComponent } from './components/login/login';
+import { SignupComponent } from './components/signup/signup';
+import { MyUniverseComponent } from './components/my-universe/my-universe';
+import { EmailVerificationComponent } from './components/email-verification/email-verification';
 import { AuthGuard } from './guards/auth.guard';
 
 const routes: Routes = [
